@@ -1,0 +1,67 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+}
+
+.container {
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #a9a9a9;
+    background: linear-gradient(to right, #CBCE91FF, #EA738DFF);
+    box-shadow: 10px 10px 10px 10px rgba(153, 153, 153, 1);
+}
+
+.button {
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 66px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: skyblue;
+    transition: 0.4s ease-in-out;
+
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row #display {
+    margin: 0;
+    padding: 10px 0px;
+    border: 5px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 291px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.operations {
+    background-color: red;
+}
+
+.equals {
+    background-color: orange;
+    color: white;
+}
